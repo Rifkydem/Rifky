@@ -6,13 +6,13 @@
  $ pip install requests
  $ pip install bs4
  $ pip install rich
- $ git clone https://github.com/Rifkydem/Dragon
+ $ git clone https://github.com/Rifkydem/Rifky.git
  ```
  oke sekarang script sudah terinstall
 #### CARA MENJALANKAN SCRIPT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
-  $ cd Dragon
+  $ cd Rifky
   $ git pull
   $ python Dragon.py
 ```
