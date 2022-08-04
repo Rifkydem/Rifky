@@ -369,18 +369,4 @@ def crack(idf,pwv):
 				continue
 		except requests.exceptions.ConnectionError:
 			time.sleep(31)
-	loop+=1
-#-----------------------[ SYSTEM-CONTROL ]--------------------#
-if __name__=='__main__':
-	try:os.system('git pull')
-	except:pass
-	try:os.mkdir('OK')
-	except:pass
-	try:os.mkdir('CP')
-	except:pass
-	try:os.system('touch .prox.txt')
-	except:pass
-	login()
-
-#>>>>> THANKS TO THIS HERE <<<<<<<#
-#>>>>> renv_renv_renv <<<<<#
+	
